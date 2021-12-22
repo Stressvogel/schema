@@ -1,0 +1,112 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Stressvogel HW Layout"
+Date "2021-12-22"
+Rev "0.1"
+Comp ""
+Comment1 "ESA CE KBS 2021-2022"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor:MAX30102 IC1001
+U 1 1 61C33F63
+P 1450 2000
+F 0 "IC1001" H 1750 2650 50  0000 C CNN
+F 1 "MAX30102" H 1750 2550 50  0000 C CNN
+F 2 "OptoDevice:Maxim_OLGA-14_3.3x5.6mm_P0.8mm" H 1300 2900 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf" H 1100 2250 50  0001 C CNN
+	1    1450 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L stressvogel:Terasic_DE2_115_GPIO_Header U1001
+U 1 1 61C3105F
+P 2850 950
+F 0 "U1001" H 2850 1050 50  0000 C CNN
+F 1 "Terasic_DE2_115_GPIO_Header" H 2850 950 50  0000 C CNN
+F 2 "" H 2850 950 50  0001 C CNN
+F 3 "" H 2850 950 50  0001 C CNN
+	1    2850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1200 2550 1200
+Wire Wire Line
+	2300 1050 3250 1050
+Wire Wire Line
+	3250 1050 3250 1200
+Wire Wire Line
+	3250 1200 3150 1200
+Wire Wire Line
+	2050 2000 2400 2000
+Wire Wire Line
+	2400 1200 2400 2000
+Wire Wire Line
+	2300 1900 2050 1900
+Wire Wire Line
+	2300 1050 2300 1900
+Wire Wire Line
+	1750 1500 1750 1400
+Wire Wire Line
+	1750 1400 2150 1400
+Wire Wire Line
+	2150 1400 2150 2600
+Wire Wire Line
+	2150 2600 2550 2600
+Wire Wire Line
+	1350 2500 1350 3300
+Wire Wire Line
+	1350 3300 3250 3300
+Wire Wire Line
+	3250 3300 3250 2600
+Wire Wire Line
+	3250 2600 3150 2600
+NoConn ~ 1550 1500
+NoConn ~ 1550 2500
+NoConn ~ 850  2300
+NoConn ~ 850  2200
+NoConn ~ 850  2000
+NoConn ~ 2550 3100
+NoConn ~ 2550 3000
+NoConn ~ 2550 2900
+NoConn ~ 2550 2800
+NoConn ~ 2550 2700
+NoConn ~ 2550 2500
+NoConn ~ 2550 2400
+NoConn ~ 2550 2300
+NoConn ~ 2550 2200
+NoConn ~ 2550 2100
+NoConn ~ 2550 2000
+NoConn ~ 2550 1900
+NoConn ~ 2550 1800
+NoConn ~ 2550 1700
+NoConn ~ 2550 1600
+NoConn ~ 2550 1500
+NoConn ~ 2550 1400
+NoConn ~ 2550 1300
+NoConn ~ 3150 1300
+NoConn ~ 3150 1400
+NoConn ~ 3150 1500
+NoConn ~ 3150 1600
+NoConn ~ 3150 1700
+NoConn ~ 3150 1800
+NoConn ~ 3150 1900
+NoConn ~ 3150 2000
+NoConn ~ 3150 2100
+NoConn ~ 3150 2200
+NoConn ~ 3150 2300
+NoConn ~ 3150 2400
+NoConn ~ 3150 2500
+NoConn ~ 3150 2700
+NoConn ~ 3150 2800
+NoConn ~ 3150 2900
+NoConn ~ 3150 3000
+NoConn ~ 3150 3100
+NoConn ~ 1450 1500
+$EndSCHEMATC

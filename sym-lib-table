@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name stressvogel)(type Legacy)(uri ${KIPRJMOD}/stressvogel.lib)(options "")(descr ""))
+)
